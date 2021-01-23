@@ -28,10 +28,4 @@ sudo cp -r ./* /var/lib/docker/volumes/c9-docker-compose_9c-miner3-volume/_data/
 
 sudo cp -r ./* /var/lib/docker/volumes/c9-docker-compose_9c-miner4-volume/_data/
 
-sudo cp -r ./* /var/lib/docker/volumes/c9-docker-compose_9c-miner5-volume/_data/
-
 echo "->Refresh complete."
-
-echo "->To begin mining, run: docker-compose up -d"
-echo "->To monitor for mined blocks, run:"
-echo "->docker-compose logs --tail=1 -f | grep -A 10 --color -i 'Mined a block'"
